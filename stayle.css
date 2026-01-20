@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #555aa0af;
+    width: 100%;
+    height: 150vh;
+
+
+}
+
+.max-width {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+
+.box {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.card {
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.card {
+    width: 230px;
+    height: 350px;
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    position: relative;
+    width: 230px;
+    height: 350px;
+    background: white;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.plus {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+
+.top-1 {
+    height: 35%;
+    background: #7FE9C9;
+    /* rasmga o'xshagan yashil rang */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bottom-1 {
+    height: 65%;
+    background: #F8F8F8;
+    /* pastki oq rang */
+}
+
+.top-2 {
+    height: 35%;
+    background: #8cf3d4a8;
+    /* rasmga o'xshagan yashil rang */
+}
+
+.bottom-2 {
+    height: 65%;
+    background: #F8F8F8;
+    /* pastki oq rang */
+}
+
+.top-3 {
+    height: 35%;
+    background: #87b1d4;
+    /* rasmga o'xshagan yashil rang */
+}
+
+.bottom-3 {
+    height: 65%;
+    background: #F8F8F8;
+    /* pastki oq rang */
+}
+
+.top-4 {
+    height: 35%;
+    background: #7FE9C9;
+    /* rasmga o'xshagan yashil rang */
+}
+
+.bottom-4 {
+    height: 65%;
+    background: #F8F8F8;
+    /* pastki oq rang */
+}
+
+.top-5 {
+    height: 35%;
+    background: #8cf3d4a8;
+    /* rasmga o'xshagan yashil rang */
+}
+
+.bottom-5 {
+    height: 65%;
+    background: #F8F8F8;
+    /* pastki oq rang */
+}
+
+.top-6 {
+    height: 35%;
+    background: #ed9afdfd;
+    /* rasmga o'xshagan yashil rang */
+}
+
+.bottom-6 {
+    height: 65%;
+    background: #F8F8F8;
+    /* pastki oq rang */
+}
+
+.top-7 {
+    height: 35%;
+    background: hsl(24, 81%, 75%);
+    /* rasmga o'xshagan yashil rang */
+}
+
+.bottom-7 {
+    height: 65%;
+    background: #F8F8F8;
+    /* pastki oq rang */
+}
+
+.top-8 {
+    height: 35%;
+    background: #ee89c4;
+    /* rasmga o'xshagan yashil rang */
+}
+
+.bottom-8 {
+    height: 65%;
+    background: #F8F8F8;
+    /* pastki oq rang */
+}
+
+.i {
+    color: white;
+}
+
+.text {
+    padding: 20px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+@media (max-width: 890px) {
+    .container>.max-width {
+        width: 100%;
+    }
+
+    .max-width {
+        padding: 20px;
+
+    }
+}
+
+@media (max-width:890px) {
+    .container>.max-width>.display {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #555aa0af;
+        width: 100%;
+        height: 150vh;
+
+
+    }
+}
